@@ -51,7 +51,6 @@ class CourseInfoTool:
                 f"Durata: {course['duration']}\n"
                 f"Costo: {course['price']}")
 
-
 class ScheduleTool:
     def __init__(self):
         oggi = datetime.today()
